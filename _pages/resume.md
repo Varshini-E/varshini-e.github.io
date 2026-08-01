@@ -250,15 +250,15 @@ _styles: >
           <span class="timeline-date">Jul 2022 &ndash; Jul 2025</span>
         </div>
         <div class="timeline-subline">
-          <span class="timeline-role">Software Engineer (SWE II → SWE III)</span>
+          <span class="timeline-role">Software Engineer III (Nov 2024 &ndash; Jul 2025); Software Engineer II (Jul 2022 &ndash; Oct 2024)</span>
           <span class="timeline-location"><i class="fa-solid fa-location-dot"></i>Hyderabad, India</span>
         </div>
         <ul class="timeline-bullets">
-          <li>Primary contributor to the risk strategy for Google Wallet via PIX in Brazil, launched August 2024. Developed risk mitigation solutions to reduce transaction losses across peer-to-peer payment flows.</li>
-          <li>Designed and deployed feature engineering pipelines in Java and rule-based decision policies in Python, integrating ML model outputs for real-time transaction risk assessment at scale.</li>
-          <li>Implemented regulation-compliant risk capabilities including real-time monitoring dashboards and operational runbooks. Collaborated with Trust &amp; Safety and Product teams on metrics, thresholds, and customer impact post-launch.</li>
-          <li>Engineered ML pipelines for delinquency fraud detection on Stored Value transactions — data simulation, GBDT model training in TensorFlow, and offline evaluation against baselines.</li>
-          <li>Promoted from SWE II to SWE III (November 2024) for high-impact contributions to the Global Payments Platform Risk systems.</li>
+          <li>Drove risk strategy design for Google Wallet via PIX in Brazil, developing mitigation frameworks to reduce transaction losses across P2P and P2M payment flows for the August 2024 launch.</li>
+          <li>Designed and deployed feature engineering pipelines in Java and rule-based decision policies in Python integrating ML model outputs for real-time transaction risk assessment across Google Pay US and Wallet Brazil.</li>
+          <li>Owned design, implementation, and validation of payment risk infrastructure extensions for recipients external to Google, including entity representation, control propagation, and downstream enforcement across the transaction pipeline.</li>
+          <li>Engineered ML pipelines for delinquency fraud detection on Stored Value transactions, spanning data simulation, GBDT model training in TensorFlow and offline evaluation against production baselines.</li>
+          <li>Built real-time monitoring dashboards and operational runbooks for regulatory compliance in Brazil. Collaborated with Trust &amp; Safety and Product teams on post-launch metrics, thresholds and customer impact.</li>
         </ul>
       </div>
     </div>
@@ -295,13 +295,12 @@ _styles: >
           <span class="timeline-date">May 2026 &ndash; Present</span>
         </div>
         <div class="timeline-subline">
-          <span class="timeline-role">Graduate Student Researcher</span>
+          <span class="timeline-role">Graduate Student Researcher (LLM Safety and Alignment)</span>
           <span class="timeline-location"><i class="fa-solid fa-location-dot"></i>Pittsburgh, PA</span>
         </div>
         <ul class="timeline-bullets">
-          <li>Researching AI safety interventions for large language models, focusing on persona representations and behavioural drift in multi-turn conversations.</li>
-          <li>Studying inference-time and post-training interventions for improving model robustness, refusal behavior, and recovery from unsafe conversational trajectories.</li>
-          <li>Contributing to <a href="https://open-reflection.com/" target="_blank" rel="noopener noreferrer">Safety Nudges</a>, a real-time chatbot intervention tool for risks including overconfidence, sycophancy and unsafe responses.</li>
+          <li>Developing post-training interventions for LLM alignment, focused on identifying and suppressing unsafe persona-driven behaviours through on-policy consistency training and RL.</li>
+          <li>Conducting a user study for <a href="https://open-reflection.com/" target="_blank" rel="noopener noreferrer">Safety Nudges</a>, a real-time Chrome extension that audits chatbot conversations and surfaces contextual warnings for overconfidence, sycophancy, anthropomorphization and unsafe responses.</li>
         </ul>
       </div>
     </div>
@@ -309,16 +308,16 @@ _styles: >
     <div class="timeline-item">
       <div class="timeline-card">
         <div class="timeline-header">
-          <span class="timeline-org">Human Sensing Lab, Carnegie Mellon University</span>
-          <span class="timeline-date">Oct 2025 &ndash; May 2026</span>
+          <span class="timeline-org">Human Sensing Lab, Carnegie Mellon University (Prof. Fernando De la Torre)</span>
+          <span class="timeline-date">Oct 2025 &ndash; Present</span>
         </div>
         <div class="timeline-subline">
-          <span class="timeline-role">Graduate Student Researcher</span>
+          <span class="timeline-role">Graduate Student Researcher (Multimodal Models)</span>
           <span class="timeline-location"><i class="fa-solid fa-location-dot"></i>Pittsburgh, PA</span>
         </div>
         <ul class="timeline-bullets">
-          <li>Working on efficient 3D spatial understanding with 2D Vision-Language Models under Prof. Fernando De la Torre, Robotics Institute, in collaboration with Meta Reality Labs.</li>
-          <li>Developed diversity and coverage-aware visual token pruning methods for multi-view 3D visual question answering, achieving 60% faster inference, 88% fewer FLOPs, and 86% lower KV cache usage while maintaining comparable accuracy on 3D VQA benchmarks.</li>
+          <li>Developed geometry-guided visual token pruning methods for multi-view 3D Visual Question Answering with 2D Vision-Language models, reducing inference cost by 60%, FLOPs by 88%, and KV-cache usage by 86% while maintaining comparable benchmark accuracy (in collaboration with Meta Reality Labs). Preprint coming soon.</li>
+          <li>Working on safety benchmarking for Vision-Language Action models (in collaboration with Fujitsu Research).</li>
         </ul>
       </div>
     </div>
@@ -334,7 +333,7 @@ _styles: >
           <span class="timeline-location"><i class="fa-solid fa-location-dot"></i>Remote (Kharagpur, India)</span>
         </div>
         <ul class="timeline-bullets">
-          <li>Trained and evaluated semantic segmentation models in PyTorch for depth estimation from simulated colonoscopy images (KLIV group). Assessed various loss functions and post-processing techniques. Presented at the MICCAI 2022 Endoscopic Vision Challenge.</li>
+          <li>Trained semantic segmentation models in PyTorch for depth estimation from simulated colonoscopy images as part of the KLIV group and studied effective post-processing techniques. Presented at the MICCAI 2022 Endoscopic Vision Challenge.</li>
         </ul>
       </div>
     </div>
@@ -351,7 +350,7 @@ _styles: >
     <div class="timeline-item">
       <div class="timeline-card">
         <div class="timeline-header">
-          <span class="timeline-org">Watch &amp; Learn: Teacher-Student Distillation for Robotic Arm Tasks</span>
+          <span class="timeline-org">Watch &amp; Learn: Teacher-Student Distillation for Robotic Arm Tasks (<a href="https://github.com/Varshini-E/robotic-arm-manipulation" target="_blank" rel="noopener noreferrer">GitHub</a>)</span>
           <span class="timeline-date">Nov 2025 &ndash; Dec 2025</span>
         </div>
         <ul class="timeline-bullets">
@@ -364,10 +363,10 @@ _styles: >
       <div class="timeline-card">
         <div class="timeline-header">
           <span class="timeline-org">Environmental ML: Modelling Sequential Disaster Cascades</span>
-          <span class="timeline-date">Jan 2026 &ndash; Present</span>
+          <span class="timeline-date">Jan 2026 &ndash; Apr 2026</span>
         </div>
         <ul class="timeline-bullets">
-          <li>Implemented an end-to-end ML pipeline on 15 years of NOAA Storm data for multi-hazard disaster chain prediction using MLPs with weather embeddings and GNN architectures with physics-informed features for rare event detection.</li>
+          <li>Built an end-to-end disaster cascade prediction pipeline on 15 years of NOAA Storm Events data, using multilabel classification, weather embedded neural networks and graph neural networks to model rare secondary hazards and spatial cascade patterns.</li>
         </ul>
       </div>
     </div>
@@ -429,10 +428,12 @@ _styles: >
   <div class="skills-grid">
     <span class="skills-label">Languages</span>
     <span class="skills-value">Python, Java, C/C++, SQL, JavaScript</span>
-    <span class="skills-label">Frameworks / Libraries</span>
-    <span class="skills-value">PyTorch, TensorFlow, Keras, NumPy, Pandas, scikit-learn, Hugging Face, OpenCV, OpenAI Gymnasium</span>
+    <span class="skills-label">ML / Deep Learning</span>
+    <span class="skills-value">PyTorch, TensorFlow, Keras, NumPy, Pandas, scikit-learn, Hugging Face, OpenCV, Gymnasium</span>
     <span class="skills-label">Developer Tools</span>
-    <span class="skills-value">Git, Docker, Weights &amp; Biases, FastAPI</span>
+    <span class="skills-value">Weights &amp; Biases, Docker, Git, FastAPI</span>
+    <span class="skills-label">Research Interests</span>
+    <span class="skills-value">VLMs, LLMs, post-training, RL, multimodal reasoning, technical AI safety</span>
   </div>
 </div>
 
