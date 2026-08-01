@@ -26,7 +26,7 @@ Hi! I'm Varshini Elangovan, a Master's student in Machine Learning at Carnegie M
 
 At CMU’s Forge Lab, I work with [Prof. Virginia Smith](https://www.cs.cmu.edu/~smithv/) and [Aashiq Muhamed](https://aashiqmuhamed.github.io/) on post-training interventions for LLM alignment, with a focus on understanding and suppressing unsafe persona-driven behavior using consistency training and reinforcement learning. 
 
-At the [Human Sensing Lab](https://www.cmu.edu/cs/humansensing/pages/home.htm), I work with Prof. Fernando de la Torre on multimodal models: efficient 3D Visual Question Answering through visual token pruning for 2D VLMs in collaboration with Meta Reality Labs and VLAs in collaboration with Fujitsu Research.
+At the [Human Sensing Lab](https://www.cmu.edu/cs/humansensing/pages/home.htm), I work with Prof. Fernando de la Torre on multimodal models: efficient 3D Visual Question Answering with 2D VLMs in collaboration with Meta Reality Labs and VLAs in collaboration with Fujitsu Research.
 
 Previously, I was at Google Hyderabad for 3 years as a part of the Global Payments Platform Risk team, working on fraud mitigation for peer-to-peer payment transactions in Google Pay and Google Wallet.
 
