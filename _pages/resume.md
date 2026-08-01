@@ -6,10 +6,6 @@ nav: true
 nav_order: 4
 description:
 _styles: >
-  .resume-content {
-    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-  }
-
   .resume-download {
     float: right;
     color: var(--global-theme-color);
@@ -63,7 +59,6 @@ _styles: >
   .timeline-section { margin-bottom: 2.5rem; }
   .timeline-section > a[id] { display: block; scroll-margin-top: 5rem; }
   .timeline-section-title {
-    font-family: "Roboto Slab", Georgia, serif;
     font-size: 0.85rem;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -113,7 +108,6 @@ _styles: >
     margin-bottom: 0.25rem;
   }
   .timeline-org {
-    font-family: "Roboto Slab", Georgia, serif;
     font-weight: 700;
     font-size: 1.05rem;
     color: var(--global-text-color);
@@ -173,7 +167,6 @@ _styles: >
     background: var(--global-card-bg-color);
   }
   .skills-label {
-    font-family: "Roboto Slab", Georgia, serif;
     font-weight: 700;
     color: var(--global-theme-color);
     white-space: nowrap;
