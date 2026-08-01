@@ -6,20 +6,24 @@ nav: true
 nav_order: 4
 description:
 _styles: >
+  .resume-content {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  }
+
   .resume-download {
     float: right;
     color: var(--global-theme-color);
     font-size: 1.4rem;
     margin-top: -0.2rem;
-    transition: opacity 0.2s;
+    transition: opacity 0.2s, transform 0.2s;
   }
-  .resume-download:hover { opacity: 0.7; }
+  .resume-download:hover { opacity: 0.7; transform: translateY(-1px); }
 
   /* ── Two-column wrapper ── */
   .resume-wrapper {
     display: grid;
-    grid-template-columns: 130px 1fr;
-    gap: 2.5rem;
+    grid-template-columns: 150px 1fr;
+    gap: 3rem;
     align-items: start;
   }
   @media (max-width: 576px) {
@@ -38,29 +42,36 @@ _styles: >
     margin: 0;
     border-left: 2px solid var(--global-divider-color);
   }
-  .resume-toc li { margin-bottom: 0.4rem; }
+  .resume-toc li { margin-bottom: 0.5rem; }
   .resume-toc a {
     display: block;
-    font-size: 0.75rem;
+    font-size: 0.82rem;
+    font-weight: 500;
     color: var(--global-text-color-light);
     text-decoration: none;
-    padding-left: 0.7rem;
-    transition: color 0.15s;
+    padding-left: 0.8rem;
+    border-left: 2px solid transparent;
+    margin-left: -2px;
+    transition: color 0.15s, border-color 0.15s;
   }
-  .resume-toc a:hover { color: var(--global-theme-color); }
+  .resume-toc a:hover {
+    color: var(--global-theme-color);
+    border-left-color: var(--global-theme-color);
+  }
 
   /* ── Section ── */
-  .timeline-section { margin-bottom: 2.2rem; }
+  .timeline-section { margin-bottom: 2.5rem; }
   .timeline-section > a[id] { display: block; scroll-margin-top: 5rem; }
   .timeline-section-title {
-    font-size: 0.72rem;
+    font-family: "Roboto Slab", Georgia, serif;
+    font-size: 0.85rem;
     font-weight: 700;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--global-theme-color);
     border-bottom: 2px solid var(--global-theme-color);
-    padding-bottom: 0.3rem;
-    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.2rem;
   }
 
   /* ── Timeline track ── */
@@ -81,14 +92,14 @@ _styles: >
   /* ── Timeline entry ── */
   .timeline-item {
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
   }
   .timeline-item:last-child { margin-bottom: 0; }
   /* ── Entry card box ── */
   .timeline-card {
     border: 1px solid var(--global-divider-color);
-    border-radius: 6px;
-    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
     background: var(--global-card-bg-color);
   }
 
@@ -99,15 +110,17 @@ _styles: >
     align-items: baseline;
     flex-wrap: wrap;
     gap: 0.25rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.25rem;
   }
   .timeline-org {
+    font-family: "Roboto Slab", Georgia, serif;
     font-weight: 700;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     color: var(--global-text-color);
   }
   .timeline-date {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
+    font-variant-numeric: tabular-nums;
     color: var(--global-text-color-light);
     white-space: nowrap;
   }
@@ -119,65 +132,53 @@ _styles: >
     align-items: baseline;
     flex-wrap: wrap;
     gap: 0.25rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
   }
   .timeline-role {
-    font-size: 0.85rem;
-    color: var(--global-text-color-light);
-    font-style: italic;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--global-text-color);
   }
   .timeline-location {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     color: var(--global-text-color-light);
     white-space: nowrap;
   }
   .timeline-location i {
     color: var(--global-theme-color);
-    margin-right: 0.2rem;
-    font-size: 0.68rem;
+    margin-right: 0.25rem;
+    font-size: 0.72rem;
   }
 
   /* ── Bullet points ── */
   .timeline-bullets {
     margin: 0;
-    padding-left: 1.1rem;
-    font-size: 0.83rem;
+    padding-left: 1.15rem;
+    font-size: 0.92rem;
     color: var(--global-text-color);
   }
-  .timeline-bullets li { margin-bottom: 0.3rem; line-height: 1.55; }
+  .timeline-bullets li { margin-bottom: 0.4rem; line-height: 1.65; }
+  .timeline-bullets li:last-child { margin-bottom: 0; }
 
   /* ── Skills ── */
   .skills-grid {
     display: grid;
     grid-template-columns: max-content 1fr;
-    gap: 0.45rem 1rem;
-    font-size: 0.85rem;
+    gap: 0.6rem 1.25rem;
+    font-size: 0.92rem;
+    line-height: 1.5;
     border: 1px solid var(--global-divider-color);
-    border-radius: 6px;
-    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
     background: var(--global-card-bg-color);
   }
-  .skills-label { font-weight: 600; color: var(--global-theme-color); white-space: nowrap; }
+  .skills-label {
+    font-family: "Roboto Slab", Georgia, serif;
+    font-weight: 700;
+    color: var(--global-theme-color);
+    white-space: nowrap;
+  }
   .skills-value { color: var(--global-text-color); }
-
-  /* ── Publications ── */
-  .pub-list {
-    border: 1px solid var(--global-divider-color);
-    border-radius: 6px;
-    padding: 0.8rem 1rem;
-    background: var(--global-card-bg-color);
-  }
-  .pub-item {
-    font-size: 0.83rem;
-    color: var(--global-text-color);
-    margin-bottom: 0.6rem;
-    line-height: 1.6;
-    padding-left: 1rem;
-    position: relative;
-  }
-  .pub-item:last-child { margin-bottom: 0; }
-  .pub-item::before { content: "▸"; position: absolute; left: 0; color: var(--global-theme-color); }
-  .pub-title { font-weight: 600; }
 ---
 
 <a href="{{ '/assets/pdf/Varshini_Elangovan_Resume.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="resume-download" title="Download PDF">
@@ -193,7 +194,6 @@ _styles: >
     <li><a href="#work">Work Experience</a></li>
     <li><a href="#research">Research</a></li>
     <li><a href="#projects">Projects</a></li>
-    <li><a href="#publications">Publications</a></li>
     <li><a href="#courses">Courses</a></li>
     <li><a href="#skills">Skills</a></li>
   </ul>
@@ -247,11 +247,15 @@ _styles: >
       <div class="timeline-card">
         <div class="timeline-header">
           <span class="timeline-org">Google</span>
-          <span class="timeline-date">Jul 2022 &ndash; Jul 2025</span>
+          <span class="timeline-location"><i class="fa-solid fa-location-dot"></i>Hyderabad, India</span>
         </div>
         <div class="timeline-subline">
-          <span class="timeline-role">Software Engineer III (Nov 2024 &ndash; Jul 2025); Software Engineer II (Jul 2022 &ndash; Oct 2024)</span>
-          <span class="timeline-location"><i class="fa-solid fa-location-dot"></i>Hyderabad, India</span>
+          <span class="timeline-role">Software Engineer III</span>
+          <span class="timeline-date">Nov 2024 &ndash; Jul 2025</span>
+        </div>
+        <div class="timeline-subline">
+          <span class="timeline-role">Software Engineer II</span>
+          <span class="timeline-date">Jul 2022 &ndash; Oct 2024</span>
         </div>
         <ul class="timeline-bullets">
           <li>Drove risk strategy design for Google Wallet via PIX in Brazil, developing mitigation frameworks to reduce transaction losses across P2P and P2M payment flows for the August 2024 launch.</li>
@@ -259,22 +263,6 @@ _styles: >
           <li>Owned design, implementation, and validation of payment risk infrastructure extensions for recipients external to Google, including entity representation, control propagation, and downstream enforcement across the transaction pipeline.</li>
           <li>Engineered ML pipelines for delinquency fraud detection on Stored Value transactions, spanning data simulation, GBDT model training in TensorFlow and offline evaluation against production baselines.</li>
           <li>Built real-time monitoring dashboards and operational runbooks for regulatory compliance in Brazil. Collaborated with Trust &amp; Safety and Product teams on post-launch metrics, thresholds and customer impact.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-card">
-        <div class="timeline-header">
-          <span class="timeline-org">Goldman Sachs</span>
-          <span class="timeline-date">Jun 2021 &ndash; Jul 2021</span>
-        </div>
-        <div class="timeline-subline">
-          <span class="timeline-role">Summer Analyst</span>
-          <span class="timeline-location"><i class="fa-solid fa-location-dot"></i>Remote (Bengaluru, India)</span>
-        </div>
-        <ul class="timeline-bullets">
-          <li>Created a Python-based data curation and analysis tool converting JSON inputs into multiple outputs for GS proprietary systems. Integrated into ETL workflows, optimizing a 2-week process to under one minute.</li>
         </ul>
       </div>
     </div>
@@ -333,7 +321,7 @@ _styles: >
           <span class="timeline-location"><i class="fa-solid fa-location-dot"></i>Remote (Kharagpur, India)</span>
         </div>
         <ul class="timeline-bullets">
-          <li>Trained semantic segmentation models in PyTorch for depth estimation from simulated colonoscopy images as part of the KLIV group and studied effective post-processing techniques. Presented at the MICCAI 2022 Endoscopic Vision Challenge.</li>
+          <li>Trained segmentation models in PyTorch for depth estimation from simulated colonoscopy images as part of the KLIV group and studied effective post-processing techniques. Presented at the MICCAI 2022 Endoscopic Vision Challenge.</li>
         </ul>
       </div>
     </div>
@@ -362,7 +350,7 @@ _styles: >
     <div class="timeline-item">
       <div class="timeline-card">
         <div class="timeline-header">
-          <span class="timeline-org">Environmental ML: Modelling Sequential Disaster Cascades</span>
+          <span class="timeline-org">Environmental ML: Modelling Sequential Disaster Cascades (<a href="https://github.com/ml-girls/cascading-disaster-prediction" target="_blank" rel="noopener noreferrer">GitHub</a>)</span>
           <span class="timeline-date">Jan 2026 &ndash; Apr 2026</span>
         </div>
         <ul class="timeline-bullets">
@@ -374,7 +362,7 @@ _styles: >
     <div class="timeline-item">
       <div class="timeline-card">
         <div class="timeline-header">
-          <span class="timeline-org">Adaptive Day Planner: LLM-Based Task Scheduling and Voice Agent</span>
+          <span class="timeline-org">Adaptive Day Planner: LLM-Based Task Scheduling and Voice Agent (<a href="https://github.com/Varshini-E/focus-bestie" target="_blank" rel="noopener noreferrer">GitHub</a>)</span>
           <span class="timeline-date">Feb 2026</span>
         </div>
         <ul class="timeline-bullets">
@@ -383,20 +371,6 @@ _styles: >
       </div>
     </div>
 
-  </div>
-</div>
-
-<!-- PUBLICATIONS -->
-<div class="timeline-section">
-  <a id="publications"></a>
-  <div class="timeline-section-title">Publications</div>
-  <div class="pub-list">
-    <div class="pub-item">
-      <span class="pub-title">SimCol3D - 3D reconstruction during colonoscopy challenge</span>, A. Rau, S. Bano, Y. Jin, Varshini Elangovan, et al. <em>Medical Image Analysis</em>, 2024. <a href="https://doi.org/10.1016/j.media.2024.103195" target="_blank" rel="noopener noreferrer">doi: 10.1016/j.media.2024.103195</a>
-    </div>
-    <div class="pub-item">
-      <span class="pub-title">Reverse Image Search Engine for Garment Industry</span>, Anushri Eswaran and Varshini E. <em>8th International Conference on Advanced Computing and Communication Systems (ICACCS)</em>, 2022. <a href="https://doi.org/10.1109/ICACCS54159.2022.9785089" target="_blank" rel="noopener noreferrer">doi: 10.1109/ICACCS54159.2022.9785089</a>
-    </div>
   </div>
 </div>
 
