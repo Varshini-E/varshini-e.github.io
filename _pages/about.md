@@ -15,7 +15,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <style>
-.profile { margin-top: -3rem; margin-right: 1.5rem; }
+.profile { margin-top: -1rem; margin-right: 1.5rem; }
 .profile img { max-width: 180px; }
 .post .clearfix p {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
