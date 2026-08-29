@@ -22,9 +22,9 @@ social: true # includes social icons at the bottom of the page
 }
 </style>
 
-Hi! I'm Varshini Elangovan, a Master's student in Machine Learning at Carnegie Mellon University, graduating in December 2026. My research interests include LLM post-training and alignment, AI safety, multimodal reasoning across Vision-Language Models and Vision-Language-Action Models and reinforcement learning. 
+Hi! I'm Varshini Elangovan, a Master's student in Machine Learning at Carnegie Mellon University, graduating in December 2026. My research interests include LLM post-training and alignment, AI safety, multimodal reasoning across VLMs and VLAs, and reinforcement learning. 
 
-At CMU’s Forge Lab, I work with [Prof. Virginia Smith](https://www.cs.cmu.edu/~smithv/) and [Aashiq Muhamed](https://aashiqmuhamed.github.io/) on post-training interventions for LLM alignment, with a focus on understanding and suppressing unsafe persona-driven behavior using consistency training and reinforcement learning. 
+At CMU’s Forge Lab, I work with [Prof. Virginia Smith](https://www.cs.cmu.edu/~smithv/) and [Aashiq Muhamed](https://aashiqmuhamed.github.io/) on post-training interventions for LLM alignment, with a focus on understanding and suppressing unsafe persona-driven behavior using consistency training. 
 
 At the [Human Sensing Lab](https://www.cmu.edu/cs/humansensing/pages/home.htm), I work with Prof. Fernando de la Torre on multimodal models: efficient 3D Visual Question Answering with 2D VLMs in collaboration with Meta Reality Labs and VLAs in collaboration with Fujitsu Research.
 

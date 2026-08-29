@@ -298,7 +298,7 @@ _styles: >
         </div>
         <ul class="timeline-bullets">
           <li>Developed geometry-guided visual token pruning methods for multi-view 3D Visual Question Answering with 2D Vision-Language models, reducing inference cost by 60%, FLOPs by 88%, and KV-cache usage by 86% while maintaining comparable benchmark accuracy (in collaboration with Meta Reality Labs). Preprint coming soon.</li>
-          <li>Working on safety benchmarking for Vision-Language Action models (in collaboration with Fujitsu Research).</li>
+          <li>Working with Vision-Language Action models (in collaboration with Fujitsu Research).</li>
         </ul>
       </div>
     </div>
