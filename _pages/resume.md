@@ -300,7 +300,7 @@ _styles: >
           <span class="timeline-location"><i class="fa-solid fa-location-dot"></i>Remote (Kharagpur, India)</span>
         </div>
         <ul class="timeline-bullets">
-          <li>Trained segmentation models in PyTorch for depth estimation from simulated colonoscopy images as part of the KLIV group and studied effective post-processing techniques. Presented at the MICCAI 2022 Endoscopic Vision Challenge.</li>
+          <li>Trained segmentation models in PyTorch for depth estimation from simulated colonoscopy images as part of the KLIV group and studied effective post-processing techniques. Presented at the MICCAI 2022 Endoscopic Vision Challenge (<a href="https://doi.org/10.1016/j.media.2024.103195" target="_blank" rel="noopener noreferrer">SimCol3D, Medical Image Analysis, 2024</a>).</li>
         </ul>
       </div>
     </div>
@@ -386,7 +386,7 @@ _styles: >
     <span class="skills-label">Developer Tools</span>
     <span class="skills-value">Weights &amp; Biases, Docker, Git, FastAPI</span>
     <span class="skills-label">Research Interests</span>
-    <span class="skills-value">LLM Post-Training, LLM Alignment, Multimodal Learning, Reinforcement Learning, AI Safety, VLMs</span>
+    <span class="skills-value">LLM Post-Training, LLM Alignment, Multimodal Learning, Reinforcement Learning, AI Safety, VLMs, VLAs</span>
   </div>
 </div>
 
