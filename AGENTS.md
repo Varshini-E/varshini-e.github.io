@@ -33,7 +33,6 @@ docker compose down
 - `_pages/about.md` — homepage bio
 - `_pages/resume.md` — resume/CV page (self-contained HTML/CSS, not the theme's `cv.liquid`/rendercv pipeline, which is unused)
 - `_data/socials.yml`, `_data/citations.yml` — contact info and Google Scholar citation counts (`_data/citations.yml` is auto-updated by `bin/update_scholar_citations.py` via `.github/workflows/update-citations.yml`)
-- `assets/pdf/Varshini_Elangovan_Resume.pdf` — the downloadable resume linked from the resume page
 
 ## Critical Configuration
 
