@@ -259,6 +259,21 @@ _styles: >
     <div class="timeline-item">
       <div class="timeline-card">
         <div class="timeline-header">
+          <span class="timeline-org">SPAR (Supervised Program for Alignment Research)</span>
+          <span class="timeline-date">Sep 2026 &ndash; Present</span>
+        </div>
+        <div class="timeline-subline">
+          <span class="timeline-role">Research Fellow</span>
+        </div>
+        <ul class="timeline-bullets">
+          <li>Researching model character in large language models.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-card">
+        <div class="timeline-header">
           <span class="timeline-org">Forge Lab (Prof. Virginia Smith), Carnegie Mellon University</span>
           <span class="timeline-date">May 2026 &ndash; Present</span>
         </div>
