@@ -292,7 +292,7 @@ _styles: >
       <div class="timeline-card">
         <div class="timeline-header">
           <span class="timeline-org">Human Sensing Lab, Carnegie Mellon University (Prof. Fernando De la Torre)</span>
-          <span class="timeline-date">Oct 2025 &ndash; Present</span>
+          <span class="timeline-date">Oct 2025 &ndash; Aug 2026</span>
         </div>
         <div class="timeline-subline">
           <span class="timeline-role">Graduate Student Researcher (Multimodal Models)</span>
