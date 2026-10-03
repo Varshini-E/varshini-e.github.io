@@ -173,40 +173,14 @@ ul.task-list input[type="checkbox"] {
 
 .social {
   text-align: center;
+  margin-top: 0.75rem;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 0.95rem;
 
-    a {
-      img {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-bottom: 1rem;
-      }
-
-      svg {
-        width: 3.5rem;
-        height: 4rem;
-        margin-bottom: 0.5rem;
-
-        image {
-          width: 3.5rem;
-          height: 3.5rem;
-        }
-      }
-
-      i::before {
-        color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
-      }
-
-      &:hover {
-        text-decoration: none;
-
-        i::before {
-          color: var(--global-theme-color);
-        }
-      }
+    .sep {
+      margin: 0 0.5rem;
+      color: var(--global-text-color-light);
     }
   }
 
