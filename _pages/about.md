@@ -54,6 +54,12 @@ I'm currently seeking full-time roles in ML research and engineering starting Ja
 </article>
 
 <article class="work-item">
+<p class="work-kicker">Model character &amp; misalignment &middot; Sep 2026&ndash;present</p>
+<h3>Domain-Specific Entanglements and Persona Characterization in Emergent Misalignment</h3>
+<p class="work-sub">SPAR Research Fellow with <a href="https://praxis-research.org/">Praxis Research Group</a></p>
+</article>
+
+<article class="work-item">
 <p class="work-kicker">Multimodal reasoning &amp; efficient inference &middot; CMU &middot; 2025&ndash;2026</p>
 <p class="work-with">with Fernando de la Torre &middot; in collaboration with Meta Reality Labs</p>
 <h3>CoVeR: Coverage-Based Token Pruning for Multi-View 3D Reasoning in VLMs</h3>
