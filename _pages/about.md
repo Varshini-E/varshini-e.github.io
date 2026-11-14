@@ -40,6 +40,7 @@ body { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans
 .work-meta { font-size: 0.8rem; font-weight: 500; color: var(--global-text-color-light); margin: 0 0 0.4rem; }
 .work-desc { font-size: 0.88rem; line-height: 1.6; margin: 0; text-align: justify; hyphens: auto; }
 .work-links { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; margin-top: 0.4rem; font-size: 0.84rem; font-weight: 600; }
+.work-links a { text-decoration: underline; text-underline-offset: 3px; }
 </style>
 
 Hi, I'm a Master's student in Machine Learning at Carnegie Mellon University, graduating in December 2026.
