@@ -19,9 +19,9 @@ body { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans
 .post-title, .selected-work h2, .work-item h3 { font-family: "Spectral", Georgia, serif; letter-spacing: -0.01em; }
 .post-title, .post-title .font-weight-bold { font-weight: 700; }
 
-.profile { margin-top: 0.3rem; margin-left: 1.75rem; }
+.profile { margin-top: 0.3rem; margin-left: 0.9rem; }
 .profile img { max-width: 210px; aspect-ratio: 1 / 1.12; object-fit: cover; object-position: bottom; }
-.post .clearfix p { font-size: 0.92rem; line-height: 1.6; text-align: justify; hyphens: auto; }
+.post .clearfix p { font-size: 0.92rem; line-height: 1.6; }
 
 .post-header { margin-bottom: 1.4rem; }
 .post-title { margin-bottom: 0.4rem; }
@@ -38,7 +38,7 @@ body { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans
 .work-item { margin-bottom: 1.5rem; }
 .work-item h3 { font-size: 1.2rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.25rem; color: var(--global-theme-color); }
 .work-meta { font-size: 0.8rem; font-weight: 500; color: var(--global-text-color-light); margin: 0 0 0.4rem; }
-.work-desc { font-size: 0.88rem; line-height: 1.6; margin: 0; text-align: justify; hyphens: auto; }
+.work-desc { font-size: 0.88rem; line-height: 1.6; margin: 0; }
 .work-links { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; margin-top: 0.4rem; font-size: 0.84rem; font-weight: 600; }
 .work-links a { text-decoration: underline; text-underline-offset: 3px; }
 </style>
