@@ -13,86 +13,85 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <style>
-.profile { margin-top: 0.5rem; margin-right: -3rem; }
-.profile img { max-width: 210px; aspect-ratio: 1 / 1.25; object-fit: cover; object-position: bottom; }
-.post .clearfix p {
-  font-size: 0.9rem;
-  font-weight: 400;
-  -webkit-text-stroke: 0.25px currentColor;
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+body { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.post-title, .selected-work h2, .work-item h3 { font-family: "Spectral", Georgia, serif; letter-spacing: -0.01em; }
+.post-title, .post-title .font-weight-bold { font-weight: 700; }
+
+.profile { margin-top: 0.3rem; margin-left: 1.75rem; }
+.profile img { max-width: 210px; aspect-ratio: 1 / 1.12; object-fit: cover; object-position: bottom; }
+.post .clearfix p { font-size: 0.92rem; line-height: 1.6; text-align: justify; hyphens: auto; }
+
+.post-header { margin-bottom: 1.4rem; }
+.post-title { margin-bottom: 0.4rem; }
+.header-links { display: flex; flex-wrap: wrap; gap: 0.35rem 1.4rem; margin: 0; font-size: 0.88rem; font-weight: 500; }
+.header-links a { color: var(--global-text-color-light); text-decoration: none; transition: color 0.15s; }
+.header-links a:hover { color: var(--global-theme-color); text-decoration: none; }
+.header-links i { margin-right: 0.4rem; font-size: 0.95em; }
+
+.selected-work { clear: both; margin-top: 1.5rem; }
+.selected-work h2 {
+  font-size: 1.45rem; font-weight: 600; margin: 0 0 1rem; color: var(--global-text-color);
+  padding-bottom: 0.35rem; border-bottom: 2px solid color-mix(in srgb, var(--global-theme-color) 35%, transparent);
 }
-
-@media (min-width: 768px) { #navbar .navbar-collapse { margin-right: -3rem; } }
-
-.selected-work { clear: both; margin-top: 3rem; }
-.selected-work h2 { font-weight: 700; font-size: 1.35rem; margin-bottom: 1.2rem; }
-.work-item { padding: 1.2rem 0; border-bottom: 1px solid var(--global-divider-color); }
-.work-item:first-of-type { border-top: 1px solid var(--global-divider-color); }
-.work-kicker { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--global-text-color); margin: 0 0 0.35rem; }
-.work-with { font-size: 0.8rem; font-weight: 500; color: var(--global-text-color); margin: 0 0 0.5rem; }
-.work-item h3 { font-size: 1.15rem; font-weight: 700; color: var(--global-theme-color); margin: 0 0 0.2rem; }
-.work-sub { font-size: 0.92rem; font-weight: 500; margin: 0 0 0.5rem; }
-.work-desc { font-size: 0.88rem; line-height: 1.6; margin: 0; max-width: 46rem; }
-.work-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.1rem; margin-top: 0.7rem; font-size: 0.86rem; }
-.selected-work { padding: 1.5rem 1.75rem 0.5rem; border-radius: 10px; background: color-mix(in srgb, var(--global-theme-color) 7%, transparent); }
-.selected-work.research { margin-top: 1.75rem; }
-.work-item.previously h3 { font-size: 1rem; color: var(--global-text-color); }
+.work-item { margin-bottom: 1.5rem; }
+.work-item h3 { font-size: 1.2rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.25rem; color: var(--global-theme-color); }
+.work-meta { font-size: 0.8rem; font-weight: 500; color: var(--global-text-color-light); margin: 0 0 0.4rem; }
+.work-desc { font-size: 0.88rem; line-height: 1.6; margin: 0; text-align: justify; hyphens: auto; }
+.work-links { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; margin-top: 0.4rem; font-size: 0.84rem; font-weight: 600; }
 </style>
 
 Hi, I'm a Master's student in Machine Learning at Carnegie Mellon University, graduating in December 2026.
 
 I'm interested in foundation model behavior, post-training, and evaluation, particularly how training and data interventions shape model behavior and alignment. I'm also interested in multimodal models with a focus on reasoning and interaction with complex environments.
 
-At CMU, I currently work with [Prof. Virginia Smith](https://www.cs.cmu.edu/~smithv/) and [Aashiq Muhamed](https://aashiqmuhamed.github.io/) on post-training interventions for LLM alignment, and previously worked with Prof. Fernando de la Torre at the [Human Sensing Lab](https://www.cmu.edu/cs/humansensing/pages/home.htm) on efficient multimodal reasoning for 3D VQA with 2D vision-language models. Before CMU, I spent three years at Google Hyderabad, as part of the Global Payments Platform Risk team, working on production risk systems for Google Pay and Google Wallet.
+At CMU, I currently work with [Prof. Virginia Smith](https://www.cs.cmu.edu/~smithv/) and [Aashiq Muhamed](https://aashiqmuhamed.github.io/) to understand persona-conditioned behaviors in LLM post-training, and previously worked with Prof. Fernando de la Torre at the [Human Sensing Lab](https://www.cmu.edu/cs/humansensing/pages/home.htm) on efficient multimodal reasoning for 3D VQA with 2D vision-language models. Before CMU, I spent three years at Google Hyderabad, as part of the Global Payments Platform Risk team, working on production risk systems for Google Pay and Google Wallet.
 
 I'm currently seeking full-time roles in ML research and engineering starting January 2027.
 
+I'm happy to chat, so feel free to reach out about anything :)
+
 <!--after-social-->
 
-<section class="selected-work industry">
+<section class="selected-work">
 <h2>Industry Experience</h2>
 
 <article class="work-item">
-<p class="work-kicker">Jul 2022&ndash;Jul 2025</p>
 <h3>Google</h3>
-<p class="work-desc">As part of Google's Global Payments Platform Risk team in Hyderabad, I worked on real-time payment risk systems for Google Pay and Google Wallet, across fraud mitigation, feature engineering pipelines, ML and rule-based decision policies, and the engineering risk strategy for Wallet’s Brazil PIX launch in 2024. </p>
+<p class="work-meta">Software Engineer &middot; Hyderabad &middot; Jul 2022&ndash;Jul 2025</p>
+<p class="work-desc">As part of Google's Global Payments Platform Risk team, I worked on real-time payment risk systems for Google Pay and Google Wallet, across fraud mitigation, feature engineering pipelines, ML and rule-based decision policies, and the engineering risk strategy for Wallet's Brazil PIX launch in 2024.</p>
 </article>
 
 </section>
 
-<section class="selected-work research">
+<section class="selected-work">
 <h2>Research Experience</h2>
 
 <article class="work-item">
-<p class="work-kicker">LLM post-training &amp; alignment &middot; CMU &middot; May 2026&ndash;present</p>
-<p class="work-with">with Virginia Smith and Aashiq Muhamed</p>
 <h3>Suppressing Persona-Conditioned Behaviors in LLMs</h3>
-<p class="work-sub">How does post-training modify the accessibility of personas?</p>
+<p class="work-meta">Forge Lab, CMU &middot; May 2026&ndash;Present</p>
 <p class="work-desc">Investigating how persona-conditioned behaviors emerge across LLM post-training, how they can be selectively suppressed, and whether suppression generalizes across elicitation settings while preserving general capabilities.</p>
 </article>
 
 <article class="work-item">
-<p class="work-kicker">Model character &amp; misalignment &middot; Sep 2026&ndash;present</p>
 <h3>Domain-Specific Entanglements and Persona Characterization in Emergent Misalignment</h3>
-<p class="work-sub">Research Fellow at SPAR (Supervised Program for Alignment Research), with <a href="https://praxis-research.org/">Praxis Research Group</a></p>
+<p class="work-meta">SPAR Research Fellow &middot; with <a href="https://praxis-research.org/">Praxis Research Group</a> &middot; Sep 2026&ndash;Present</p>
+<p class="work-desc">Exploring how training domain and inferred personas relate to emergent misalignment through character inference and roleplay evaluations.</p>
 </article>
 
 <article class="work-item">
-<p class="work-kicker">Multimodal reasoning &amp; efficient inference &middot; CMU &middot; Oct 2025&ndash;Aug 2026</p>
-<p class="work-with">with Fernando de la Torre &middot; in collaboration with Meta Reality Labs</p>
 <h3>CoVeR: Coverage-Based Token Pruning for Multi-View 3D Reasoning in VLMs</h3>
-<p class="work-sub">What visual information do VLMs need for multi-view 3D reasoning?</p>
-<p class="work-desc">Multi-view reasoning can overwhelm 2D VLMs with redundant visual tokens. We developed a training-free, geometry-guided selection method that preserves spatial coverage across views, retaining 93.5% of full-token performance with about 8% of the visual tokens, reducing LLM compute by 13.3× and speeding up inference by 2.9×.</p>
+<p class="work-meta">Human Sensing Lab, CMU &middot; Oct 2025&ndash;Aug 2026</p>
+<p class="work-desc">We developed a training-free, geometry-guided token selection method for multi-view 3D reasoning with 2D VLMs. The method retains 93.5% of full-token performance with about 8% of the visual tokens, reducing LLM compute by 13.3&times; and speeding up inference by 2.9&times;.</p>
 <div class="work-links"><a href="https://arxiv.org/abs/2609.08345">Paper</a><a href="https://humansensinglab.github.io/CoVeR">Project Page</a></div>
 </article>
 
 <article class="work-item">
-<p class="work-kicker">Human-centered AI safety &middot; CMU &middot; May&ndash;Sep 2026</p>
-<p class="work-with">with Virginia Smith</p>
 <h3>Safety Nudges: User-Facing Interventions for Real-Time AI Risk Awareness</h3>
-<p class="work-sub">Can real-time warnings help users recognize problematic AI behavior?</p>
-<p class="work-desc"> Conducted a two-week, 50-participant user field study of Safety Nudges, a Chrome extension that surfaces real-time warnings for behaviors such as sycophancy and overconfidence, examining how these warnings affect user trust and verification behavior. </p>
+<p class="work-meta">Forge Lab, CMU &middot; May&ndash;Sep 2026</p>
+<p class="work-desc">Conducted a two-week, 50-participant field study of a Chrome extension that surfaces real-time warnings for behaviors such as sycophancy and overconfidence, examining how they affect user trust and verification behavior.</p>
 <div class="work-links"><a href="https://arxiv.org/abs/2609.26865">Paper</a><a href="https://open-reflection.com/">Project Page</a></div>
 </article>
 
 </section>
-

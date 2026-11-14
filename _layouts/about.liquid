@@ -12,6 +12,14 @@ layout: default
       {% endif %}
     </h1>
     {% if page.subtitle %}<p class="desc">{{ page.subtitle }}</p>{% endif %}
+    {% if page.social %}
+      <p class="header-links">
+        {% if site.data.socials.email %}<a href="mailto:{{ site.data.socials.email }}"><i class="fa-solid fa-envelope"></i>Email</a>{% endif %}
+        {% if site.data.socials.github_username %}<a href="https://github.com/{{ site.data.socials.github_username }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>{% endif %}
+        {% if site.data.socials.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>{% endif %}
+        {% if site.data.socials.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i>Google Scholar</a>{% endif %}
+      </p>
+    {% endif %}
   </header>
 
   <article>
@@ -42,19 +50,6 @@ layout: default
     <div class="clearfix">
       {{ content_parts[0] }}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">
-          {% if site.data.socials.email %}<a href="mailto:{{ site.data.socials.email }}">Email</a>{% endif %}
-          {% if site.data.socials.github_username %}<span class="sep">/</span><a href="https://github.com/{{ site.data.socials.github_username }}" rel="external nofollow noopener" target="_blank">Github</a>{% endif %}
-          {% if site.data.socials.linkedin_username %}<span class="sep">/</span><a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" rel="external nofollow noopener" target="_blank">LinkedIn</a>{% endif %}
-          {% if site.data.socials.scholar_userid %}<span class="sep">/</span><a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" rel="external nofollow noopener" target="_blank">Google Scholar</a>{% endif %}
-        </div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
     </div>
 
     {{ content_parts[1] }}
