@@ -45,7 +45,7 @@ body { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans
 
 Hi, I'm a Master's student in Machine Learning at Carnegie Mellon University, graduating in December 2026.
 
-I'm interested in foundation model behavior, post-training, and evaluation, particularly how training and data interventions shape model behavior and alignment. I'm also interested in multimodal models with a focus on reasoning and interaction with complex environments.
+I'm interested in foundation model behavior, post-training, and evaluation, particularly how training and data interventions shape model behavior and alignment. I'm also interested in multimodal models and reinforcement learning, especially for reasoning and interaction with complex environments.
 
 At CMU, I currently work with [Prof. Virginia Smith](https://www.cs.cmu.edu/~smithv/) and [Aashiq Muhamed](https://aashiqmuhamed.github.io/) to understand persona-conditioned behaviors in LLM post-training, and previously worked with Prof. Fernando de la Torre at the [Human Sensing Lab](https://www.cmu.edu/cs/humansensing/pages/home.htm) on efficient multimodal reasoning for 3D VQA with 2D vision-language models. Before CMU, I spent three years at Google Hyderabad, as part of the Global Payments Platform Risk team, working on production risk systems for Google Pay and Google Wallet.
 
